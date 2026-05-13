@@ -1,0 +1,10 @@
+{
+  "name": "my-n8n-render",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node autopinger.js & ./node_modules/.bin/n8n start"
+  },
+  "dependencies": {
+    "n8n": "latest"
+  }
+}
