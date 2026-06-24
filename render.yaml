@@ -1,0 +1,21 @@
+services:
+  - type: web
+    name: my-n8n-render
+    runtime: node
+    buildCommand: npm install --legacy-peer-deps
+    startCommand: node node_modules/.bin/n8n
+    envVars:
+      - key: N8N_PORT
+        value: 10000
+      - key: PORT
+        value: 10000
+      - key: N8N_HOST
+        value: 0.0.0.0
+      - key: N8N_PROTOCOL
+        value: https
+      - key: N8N_ENCRYPTION_KEY
+        generateValue: true
+      - key: WEBHOOK_URL
+        value: https://sanjaymn8n-5o4y.onrender.com/
+      - key: N8N_USER_FOLDER
+        value: /opt/render/project/src/.n8n
