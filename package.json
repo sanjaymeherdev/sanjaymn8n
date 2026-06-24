@@ -1,9 +1,12 @@
 {
   "name": "my-n8n-render",
   "version": "1.0.0",
+  "engines": {
+    "node": "20.x"
+  },
   "scripts": {
     "postinstall": "node scripts/patch-deps.js",
-    "start": "node autopinger.js & node node_modules/.bin/n8n"
+    "start": "node node_modules/.bin/n8n"
   },
   "dependencies": {
     "n8n": "2.21.7"
