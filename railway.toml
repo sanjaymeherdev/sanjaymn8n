@@ -1,0 +1,5 @@
+[deploy]
+startCommand = "node node_modules/.bin/n8n"
+
+[build]
+buildCommand = "npm install --legacy-peer-deps"
