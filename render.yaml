@@ -5,6 +5,8 @@ services:
     buildCommand: npm install --legacy-peer-deps
     startCommand: node node_modules/.bin/n8n
     envVars:
+      - key: NODE_VERSION
+        value: 20.18.3
       - key: N8N_PORT
         value: 10000
       - key: PORT
