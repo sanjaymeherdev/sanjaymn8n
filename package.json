@@ -2,7 +2,7 @@
   "name": "my-n8n-render",
   "version": "1.0.0",
   "engines": {
-    "node": "20.x"
+    "node": "20.18.3"
   },
   "scripts": {
     "postinstall": "node scripts/patch-deps.js",
