@@ -16,3 +16,5 @@ services:
         value: https://sanjaymn8n-5o4y.onrender.com/
       - key: N8N_USER_FOLDER
         value: /home/node/.n8n
+      - key: GENERIC_TIMEZONE
+        value: Asia/Kolkata
