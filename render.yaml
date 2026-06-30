@@ -13,7 +13,7 @@ services:
       - key: N8N_ENCRYPTION_KEY
         generateValue: true
       - key: WEBHOOK_URL
-        value: https://sanjaymn8n-5o4y.onrender.com/
+        value: https://sanjaymn8n-nxex.onrender.com/
       - key: N8N_USER_FOLDER
         value: /home/node/.n8n
       - key: GENERIC_TIMEZONE
